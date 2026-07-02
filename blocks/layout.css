@@ -1,0 +1,33 @@
+/* ========================================
+   LAYOUT — Container, grid genérico, seções
+   ======================================== */
+
+.container {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: var(--spacing-lg);
+}
+
+.section {
+  padding-block: var(--spacing-4xl);
+}
+
+.section__title {
+  font-size: var(--fs-3xl);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-3xl);
+  position: relative;
+  display: inline-block;
+}
+
+.section__title::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 2.5rem;
+  height: 3px;
+  background-color: var(--color-accent);
+  border-radius: 2px;
+}

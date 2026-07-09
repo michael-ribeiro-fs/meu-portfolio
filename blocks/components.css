@@ -47,7 +47,7 @@
   padding: 0.25rem 0.75rem;
   font-size: var(--fs-xs);
   font-weight: var(--fw-medium);
-  color: var(--color-accent);
+  color: var(--color-surface);
   background-color: var(--color-accent-light);
   border-radius: var(--radius-sm);
 }
@@ -84,7 +84,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--color-accent-light);
-  color: var(--color-accent);
+  color: var(--color-bg);
   border-radius: var(--radius-md);
   flex-shrink: 0;
 }

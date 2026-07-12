@@ -1,10 +1,3 @@
-/**
- * Navigation.js
- * Responsável pelo comportamento da navegação:
- * - Toggle do menu mobile
- * - Scroll spy (destaque do link ativo conforme a seção visível)
- * - Efeito visual no header ao rolar a página
- */
 export class Navigation {
   constructor() {
     this.header = document.getElementById("header");
@@ -18,7 +11,6 @@ export class Navigation {
     this._updateOnScroll();
   }
 
-  /** Registra os event listeners necessários */
   _bindEvents() {
     this.menuToggle.addEventListener("click", () => this._toggleMenu());
 
@@ -31,7 +23,6 @@ export class Navigation {
     });
   }
 
-  /** Abre/fecha o menu mobile */
   _toggleMenu() {
     this.isOpen = !this.isOpen;
     this.menuToggle.classList.toggle(
@@ -42,7 +33,6 @@ export class Navigation {
     document.body.style.overflow = this.isOpen ? "hidden" : "";
   }
 
-  /** Fecha o menu mobile (se estiver aberto) */
   _closeMenu() {
     if (!this.isOpen) return;
     this.isOpen = false;
@@ -51,11 +41,6 @@ export class Navigation {
     document.body.style.overflow = "";
   }
 
-  /**
-   * Atualiza estados visuais com base no scroll:
-   * - Borda do header
-   * - Link ativo (scroll spy)
-   */
   _updateOnScroll() {
     const scrollY = window.scrollY;
 

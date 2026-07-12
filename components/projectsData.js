@@ -1,10 +1,3 @@
-/**
- * projectsData.js
- * Dados centralizados do portfólio.
- * Substitua pelos seus dados reais antes de publicar.
- */
-
-/** Projetos exibidos na seção #projects */
 export const projects = [
   {
     id: 1,
@@ -42,30 +35,17 @@ export const projects = [
     deployUrl: "https://michael-ribeiro-fs.github.io/web_project_homeland/",
     repoUrl: "https://github.com/michael-ribeiro-fs/web_project_homeland",
   },
-  /*{
-    id: 3,
-    title: "API RESTful Blog",
-    description:
-      "API robusta para plataforma de blog com autenticação JWT, CRUD completo, paginação, busca e documentação interativa com Swagger.",
-    tags: ["Node.js", "Express", "MongoDB", "JWT"],
-    deployUrl: "https://seu-deploy.com",
-    repoUrl: "https://github.com/seu-usuario/seu-repo",
-  },*/
 ];
 
-/** Tecnologias exibidas na seção #stack */
 export const stack = [
   { name: "HTML5", icon: "html" },
   { name: "CSS3", icon: "css" },
   { name: "JavaScript", icon: "javascript" },
   { name: "React", icon: "react" },
   { name: "Node.js", icon: "nodejs" },
-  // { name: "TypeScript", icon: "typescript" },
   { name: "Git", icon: "git" },
-  //{ name: "SQL", icon: "sql" },
 ];
 
-/** Canais de contato exibidos na seção #contact */
 export const contacts = [
   {
     label: "E-mail",

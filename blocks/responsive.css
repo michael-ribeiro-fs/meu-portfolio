@@ -1,9 +1,4 @@
-/* ========================================
-   RESPONSIVE — Breakpoints e ajustes mobile
-   ======================================== */
-
 @media (max-width: 768px) {
-  /* Header mobile */
   .header__cta {
     display: none;
   }
@@ -38,7 +33,6 @@
     font-size: var(--fs-xl);
   }
 
-  /* Hero */
   .hero__name {
     font-size: var(--fs-4xl);
   }
@@ -51,22 +45,18 @@
     font-size: var(--fs-base);
   }
 
-  /* About */
   .about__content {
     grid-template-columns: 1fr;
   }
 
-  /* Stack */
   .stack__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Projects */
   .projects__grid {
     grid-template-columns: 1fr;
   }
 
-  /* Contact */
   .contact__links {
     flex-direction: column;
     align-items: center;
@@ -78,12 +68,10 @@
     justify-content: center;
   }
 
-  /* Section titles */
   .section__title {
     font-size: var(--fs-2xl);
   }
 
-  /* Sections spacing */
   .section {
     padding-block: var(--spacing-3xl);
   }
